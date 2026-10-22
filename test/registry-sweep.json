@@ -1,0 +1,391 @@
+[
+  {
+    "id": "agoragentic-acp",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "agoragentic 2.0.0",
+    "caps": "",
+    "detail": "Method not found: session/new [auth methods: ]"
+  },
+  {
+    "id": "amp-acp",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "amp-acp 0.10.0",
+    "caps": "load resume mcp:http mcp:sse image embedded",
+    "detail": "ACP connection closed [auth methods: setup]"
+  },
+  {
+    "id": "antigravity-acp",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "antigravity-acp 1.4.1",
+    "caps": "load resume list mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Authentication required [auth methods: oauth-personal, oauth-business, gemini-api-key, agent-platform]"
+  },
+  {
+    "id": "auggie",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "auggie 0.36.0 (commit 7c61e5bb)",
+    "caps": "load list image",
+    "detail": "auth_required: Authentication required: Auggie does not currently support authenticating over ACP. Please run `auggie login` from your terminal then try again."
+  },
+  {
+    "id": "autohand",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "@autohandai/autohand-acp 0.2.1",
+    "caps": "load resume list fork mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Authentication required [auth methods: autohand-install]"
+  },
+  {
+    "id": "bob",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "bob-shell 2.0.8",
+    "caps": "load resume list close delete mcp:http image embedded",
+    "detail": "auth_required: Authentication required [auth methods: sso]"
+  },
+  {
+    "id": "claude-acp",
+    "stage": "done",
+    "ok": true,
+    "launcher": "ori",
+    "agent": "@agentclientprotocol/claude-agent-acp 0.94.0",
+    "caps": "load resume list fork close delete mcp:http mcp:sse image embedded providers",
+    "reply": "PONG"
+  },
+  {
+    "id": "cline",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "ori",
+    "agent": "cline 3.0.73",
+    "caps": "load image",
+    "detail": "auth_required: Authentication required: Call authenticate before starting a session [auth methods: cline, cline-pass, openai-codex]"
+  },
+  {
+    "id": "codebuddy-code",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "?",
+    "caps": "load mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Authentication required [auth methods: iOA, external, internal, selfhosted]"
+  },
+  {
+    "id": "codex-acp",
+    "stage": "done",
+    "ok": true,
+    "launcher": "ori",
+    "agent": "@agentclientprotocol/codex-acp 2.2.2",
+    "caps": "load resume list fork close delete mcp:http image embedded providers",
+    "reply": "PONG"
+  },
+  {
+    "id": "cortex-code",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "Cortex Code 1.0.0",
+    "caps": "load list",
+    "reply": "FLAKE_HOME/connections.toml or ~/.snowflake/connections.toml",
+    "detail": "stop=end_turn text=\"\\n\\nError: Connection error: Error: No Snowflake connection available. Run 'cortex' interactively to set up a connection, \""
+  },
+  {
+    "id": "corust-agent",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "corust-acp 0.1.0",
+    "caps": "image",
+    "detail": "auth_required: Authentication required [auth methods: oauth_browser]"
+  },
+  {
+    "id": "crow-cli",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "crow-cli 0.1.24",
+    "caps": "load image embedded",
+    "reply": "t forget to `cd ~/.crow && docker compose up -d` afterwards!",
+    "detail": "stop=end_turn text=\"# Welcome!\\n👋 Hi there! Thanks for trying out `crow-cli`!\\n\\nUnfortunately I _don't_ have access to an LLM provider yet, s\""
+  },
+  {
+    "id": "cursor",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "?",
+    "caps": "load list mcp:http mcp:sse image",
+    "detail": "auth_required: Authentication required [auth methods: cursor_login]"
+  },
+  {
+    "id": "deepagents",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "deepagents-acp 0.0.1",
+    "caps": "load image embedded",
+    "detail": "Internal error [auth methods: anthropic, openai, deepagents-setup]"
+  },
+  {
+    "id": "devin",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "affogato 0.0.0-dev",
+    "caps": "load list close delete mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Please log in to use Devin. Use `/login` to authenticate again. [auth methods: devin-browser]"
+  },
+  {
+    "id": "dimcode",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "dimcode 0.5.21",
+    "caps": "load resume list fork close mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Authentication required: Provider credentials are required"
+  },
+  {
+    "id": "dirac",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "dirac 0.5.22",
+    "caps": "load resume close delete image embedded providers",
+    "detail": "prompt timed out after 180s [auth methods: dirac-provider-setup, openai-codex-oauth, dirac-env]"
+  },
+  {
+    "id": "factory-droid",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "ori",
+    "agent": "@factory/cli 0.245.1",
+    "caps": "load resume list close mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Authentication required: Your code: CPPR-JQCZ Click the \"Login\" button to authenticate, or set a FACTORY_API_KEY environment variable. [auth methods: device-pairing, factory-api-key]"
+  },
+  {
+    "id": "fast-agent",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "fast-agent-acp 0.10.1",
+    "caps": "load resume list mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Authentication required [auth methods: fast-agent-ai-secrets]"
+  },
+  {
+    "id": "gemini",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "gemini-cli 0.65.0",
+    "caps": "load mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Gemini API key is missing or not configured. [auth methods: oauth-personal, gemini-api-key, vertex-ai, gateway]"
+  },
+  {
+    "id": "github-copilot-cli",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "Copilot 1.0.102",
+    "caps": "load list close mcp:http mcp:sse image embedded",
+    "reply": " No response was returned. Send your message again to retry.",
+    "detail": "stop=end_turn text=\"Warning: Static system messages and tool definitions exceed the model's usable context budget. Reduce static context or \""
+  },
+  {
+    "id": "glm-acp-agent",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "glm-acp-agent 1.15.0",
+    "caps": "load resume list fork close mcp:http image embedded",
+    "detail": "Internal error [auth methods: z-ai-api-key, z_ai_api_key]"
+  },
+  {
+    "id": "goose",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "goose 1.55.0",
+    "caps": "load list close delete mcp:http image embedded",
+    "detail": "Internal error [auth methods: goose-provider]"
+  },
+  {
+    "id": "grok-build",
+    "stage": "done",
+    "ok": true,
+    "launcher": "ori",
+    "agent": "?",
+    "caps": "load resume list close mcp:http mcp:sse image embedded",
+    "reply": "PONG"
+  },
+  {
+    "id": "harn",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "harn 0.10.173",
+    "caps": "load resume list close mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Compilation error: Expected statement separator (`;` or newline), got id(with) at 2:7 [auth methods: none]"
+  },
+  {
+    "id": "junie",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "@jetbrains/junie 26.10.12 (3659.7)",
+    "caps": "load resume list fork close delete mcp:http mcp:sse image embedded providers",
+    "detail": "auth_required: Authentication is required before this operation can be performed. [auth methods: jetbrains-account, junie-cli]"
+  },
+  {
+    "id": "kilo",
+    "stage": "done",
+    "ok": true,
+    "launcher": "ori",
+    "agent": "Kilo 7.8.15",
+    "caps": "load resume list fork close mcp:http mcp:sse image embedded",
+    "reply": "PONG"
+  },
+  {
+    "id": "kimchi",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "kimchi 1.17.2",
+    "caps": "load list close mcp:http",
+    "detail": "auth_required: Authentication required: no credentials configured for the selected model: auth required. Call session/authenticate to log in, then retry. [auth methods: kimchi-agent, kimchi-agent-us]"
+  },
+  {
+    "id": "kimi",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "Kimi Code CLI 1.52.0",
+    "caps": "load resume list mcp:http image embedded",
+    "detail": "auth_required: Authentication required [auth methods: login]"
+  },
+  {
+    "id": "minimax-code",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "minimax-code 0.2.7",
+    "caps": "load resume list fork close mcp:http mcp:sse",
+    "detail": "auth_required: Authentication required: Run `mcode login` and try again."
+  },
+  {
+    "id": "minion-code",
+    "stage": "initialize",
+    "ok": false,
+    "launcher": "direct",
+    "detail": "ACP connection closed"
+  },
+  {
+    "id": "mistral-vibe",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "@mistralai/mistral-vibe 2.26.1",
+    "caps": "load list fork close image embedded",
+    "detail": "auth_required: Missing API key for mistral provider. [auth methods: browser-auth]"
+  },
+  {
+    "id": "nova",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "kore-cli 1.0.0",
+    "caps": "load resume list fork close delete mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Click Nova Setup to configure your API keys [auth methods: kore-terminal-auth]"
+  },
+  {
+    "id": "opencode",
+    "stage": "done",
+    "ok": true,
+    "launcher": "ori",
+    "agent": "OpenCode 1.19.3",
+    "caps": "load resume list fork close mcp:http mcp:sse image embedded",
+    "reply": "PONG"
+  },
+  {
+    "id": "opencode-v2",
+    "stage": "done",
+    "ok": true,
+    "launcher": "ori",
+    "agent": "OpenCode 2.1.2",
+    "caps": "load resume list fork close delete mcp:http image embedded",
+    "reply": "PONG"
+  },
+  {
+    "id": "pi-acp",
+    "stage": "done",
+    "ok": true,
+    "launcher": "ori",
+    "agent": "pi-acp 0.0.34",
+    "caps": "load list delete image",
+    "reply": "1.3.0). Run: `npm i -g @earendil-works/pi-coding-agent`\nPONG"
+  },
+  {
+    "id": "poolside",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "pool-acp 1.0.16",
+    "caps": "load list close delete image",
+    "detail": "auth_required: Authentication required"
+  },
+  {
+    "id": "qoder",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "qoder-cli 0.2.14",
+    "caps": "load list mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Authentication required: Authentication is required. [auth methods: qodercli-login, qoder-personal-access-token]"
+  },
+  {
+    "id": "qwen-code",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "qwen-code 0.25.3",
+    "caps": "load resume list mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Authentication required: Use Qwen Code CLI to authenticate first. [auth methods: openai]"
+  },
+  {
+    "id": "sigit",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "sigit 1.7.3",
+    "caps": "load resume list fork close delete mcp:http image embedded",
+    "reply": "oad` to load the selected model, or `/models` to choose one.",
+    "detail": "stop=end_turn text=\"No on-device model is loaded. Run `/load` to load the selected model, or `/models` to choose one.\""
+  },
+  {
+    "id": "stakpak",
+    "stage": "session/new",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "stakpak 0.3.88",
+    "caps": "load mcp:http mcp:sse image embedded",
+    "detail": "auth_required: Authentication required [auth methods: stakpak]"
+  },
+  {
+    "id": "vtcode",
+    "stage": "prompt",
+    "ok": false,
+    "launcher": "direct",
+    "agent": "vtcode 0.96.12",
+    "caps": "load mcp:http image embedded",
+    "detail": "Internal error [auth methods: oauth-openai, oauth-openrouter, terminal-login, env-api-keys, env-base-urls]"
+  }
+]

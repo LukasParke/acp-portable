@@ -1,0 +1,113 @@
+[
+  {
+    "id": "crow-cli",
+    "stage": "prompt",
+    "ok": false,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "crow-cli 0.1.24",
+    "caps": "load image embedded",
+    "reply": "t forget to `cd ~/.crow && docker compose up -d` afterwards!",
+    "detail": "stop=end_turn text=\"# Welcome!\\n👋 Hi there! Thanks for trying out `crow-cli`!\\n\\nUnfortunately I _don't_ have access to an LLM provider yet, s\""
+  },
+  {
+    "id": "deepagents",
+    "stage": "prompt",
+    "ok": false,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "deepagents-acp 0.0.1",
+    "caps": "load image embedded",
+    "detail": "Internal error [auth methods: anthropic, openai, deepagents-setup]"
+  },
+  {
+    "id": "dimcode",
+    "stage": "done",
+    "ok": true,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "dimcode 0.5.21",
+    "caps": "load resume list fork close mcp:http mcp:sse image embedded",
+    "reply": "PONG"
+  },
+  {
+    "id": "dirac",
+    "stage": "done",
+    "ok": true,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "dirac 0.5.22",
+    "caps": "load resume close delete image embedded providers",
+    "reply": "PONG"
+  },
+  {
+    "id": "fast-agent",
+    "stage": "done",
+    "ok": true,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "fast-agent-acp 0.10.1",
+    "caps": "load resume list mcp:http mcp:sse image embedded",
+    "reply": "PONG PORTABLE-PLATYPUS (instance 822485, call 1)"
+  },
+  {
+    "id": "gemini",
+    "stage": "done",
+    "ok": true,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "gemini-cli 0.65.0",
+    "caps": "load mcp:http mcp:sse image embedded",
+    "reply": "PONG"
+  },
+  {
+    "id": "glm-acp-agent",
+    "stage": "done",
+    "ok": true,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "glm-acp-agent 1.15.0",
+    "caps": "load resume list fork close mcp:http image embedded",
+    "reply": "PONG PORTABLE-PLATYPUS (instance 822422, call 1)"
+  },
+  {
+    "id": "goose",
+    "stage": "done",
+    "ok": true,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "goose 1.55.0",
+    "caps": "load list close delete mcp:http image embedded",
+    "reply": "PONG PORTABLE-PLATYPUS (instance 822169, call 1)"
+  },
+  {
+    "id": "mistral-vibe",
+    "stage": "done",
+    "ok": true,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "@mistralai/mistral-vibe 2.26.1",
+    "caps": "load list fork close image embedded",
+    "reply": "PONG \"PORTABLE-PLATYPUS (instance 822725, call 1)\""
+  },
+  {
+    "id": "qwen-code",
+    "stage": "done",
+    "ok": true,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "qwen-code 0.25.3",
+    "caps": "load resume list mcp:http mcp:sse image embedded",
+    "reply": "text\",\"text\":\"PORTABLE-PLATYPUS (instance 822313, call 1)\"}]"
+  },
+  {
+    "id": "vtcode",
+    "stage": "done",
+    "ok": true,
+    "fakeLlm": true,
+    "launcher": "direct",
+    "agent": "vtcode 0.96.12",
+    "caps": "load mcp:http image embedded",
+    "reply": "PONG"
+  }
+]

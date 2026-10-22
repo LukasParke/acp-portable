@@ -1,0 +1,35 @@
+{
+  "name": "acp-portable",
+  "version": "1.0.0",
+  "description": "Portable conversations + MCP across any ACP agent (Claude Code, Codex, Pi, registry agents)",
+  "scripts": {
+    "start": "node src/cli.ts",
+    "typecheck": "tsc",
+    "test": "node test/conformance.ts && node test/mcp-over-acp.ts",
+    "test:e2e": "node test/e2e.ts",
+    "test:providers": "node test/providers.ts",
+    "test:acpx": "sh test/acpx.sh",
+    "sweep": "node scripts/registry-sweep.ts",
+    "test:live": "node test/live-extras.ts",
+    "test:fake": "node test/fake-portability.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@agentclientprotocol/sdk": "^2.0.0",
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  },
+  "bin": {
+    "acp-portable": "src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
